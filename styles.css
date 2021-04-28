@@ -40,13 +40,33 @@ h2 {
   font-size: 20px;
 }
 
-#btn-blue {
+/* #btn-blue {
   color: white;
   text-decoration: none;
   background-color: #00adb5;
   padding: 16px;
   border-radius: 4px;
   font-weight: bold;
+} */
+
+.btn-grad {background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%)}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 #btn-blue:hover, .fab:hover {
